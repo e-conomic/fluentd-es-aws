@@ -4,8 +4,8 @@ This is a fluentd daemon for collecting kubernetes logs and sending them to AWS 
 
 You must configure the following environment variables:
 
-* `AWS_ELASTICSEARCH_URL` (with `https://` appended by the ElasticSearch endpoint)
-* `AWS_REGION`
+* `AWS_ELASTICSEARCH_HOST`
+* `AWS_DEFAULT_REGION`
 * `AWS_ACCESS_KEY_ID`
 * `AWS_SECRET_ACCESS_KEY`
 * `LOGSTASH_PREFIX`
